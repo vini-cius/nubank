@@ -7,9 +7,9 @@ import Header from '~/components/Header';
 import Tabs from '~/components/Tabs';
 import Menu from '~/components/Menu';
 
-import { 
-  Container, Content, Card, CardHeader, 
-  CardContent, Title, Description, CardFooter, Annotation 
+import {
+  Container, Content, Card, CardHeader,
+  CardContent, Title, Description, CardFooter, Annotation
 } from './styles';
 
 export default function Main() {
@@ -33,7 +33,7 @@ export default function Main() {
       const { translationY } = event.nativeEvent;
 
       offset += translationY;
-      
+
       if(translationY >= 100){
         opened = true;
       } else {
@@ -60,12 +60,12 @@ export default function Main() {
 
       <Content>
         <Menu translateY={translateY} />
-        
+
         <PanGestureHandler
           onGestureEvent={animatedEvent}
           onHandlerStateChange={onHandlerStateChanged}
         >
-          <Card 
+          <Card
             style={{
               transform: [{
                 translateY: translateY.interpolate({
