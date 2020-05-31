@@ -1,5 +1,5 @@
-# nubank-clone
+## Nubank Interface Clone
 
- Clone da interface inicial do Nubank em React Native
-
-[Aula no youtubr da Rocketseat](https://www.youtube.com/watch?v=DDm0M_rZLJo)
+ Clone da interface inicial do Nubank utilizando React Native CLI
+ 
+ 
